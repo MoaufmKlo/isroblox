@@ -1,0 +1,28 @@
+{
+    "name": "isroblox",
+    "version": "1.0.0",
+    "description": "1.1kB & dependency-free Node.js module to check if an IP belongs to Roblox.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MoaufmKlo/isroblox.git"
+    },
+    "keywords": [
+        "roblox",
+        "ip",
+        "request"
+    ],
+    "author": {
+        "email": "hey@moaufmklo.com",
+        "name": "MoaufmKlo",
+        "url": "https://moaufmklo.com"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MoaufmKlo/isroblox/issues"
+    },
+    "homepage": "https://github.com/MoaufmKlo/isroblox#readme"
+}
