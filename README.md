@@ -9,7 +9,7 @@
 - [Table of contents](#table-of-contents)
 - [About](#about)
 - [Installation](#installation)
-- [Usage](#example-usage)
+- [Usage](#usage)
 - [Links](#links)
 - [Contributing](#contributing)
 
@@ -30,17 +30,12 @@ npm install isroblox
 ```javascript
 const isroblox = require("isroblox");
 
-isroblox.check("128.116.72.112")
-    .then((isRoblox) => {
-        if (isRoblox) {
-            console.log("IP belongs to Roblox!");
-        } else {
-            console.log("IP does not belong to Roblox!");
-        }
-    })
-    .catch((err) => {
-        throw err;
-    });
+const isRoblox = await isroblox.check("128.116.72.112");
+if (isRoblox) {
+    console.log("IP belongs to Roblox!");
+} else {
+    console.log("IP does not belong to Roblox!");
+};
 ```
 
 ## Links
